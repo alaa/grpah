@@ -1,5 +1,4 @@
 class Mygraph
-  attr_accessor :graph, :vertexes
 
   def initialize(vertexes)
     @vertexes = vertexes
@@ -63,5 +62,3 @@ puts graph.maxdegree
 
 puts "Number of self loops"
 puts graph.selfloops
-
-
